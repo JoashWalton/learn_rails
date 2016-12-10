@@ -1,3 +1,3 @@
 # Learning Rails
 
-Learning Rails with a tutorial from [learn-rails.com](http://learn-rails.com/).
+Learning Rails with help from a tutorial at [learn-rails.com](http://learn-rails.com/).
