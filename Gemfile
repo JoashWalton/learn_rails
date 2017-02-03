@@ -2,8 +2,7 @@ source 'https://rubygems.org'
 ruby '2.3.1'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 
-#Rails defaults
-gem 'sqlite3'
+# Rails defaults
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -21,7 +20,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
-#learn-rails
+# learn-rails
 gem 'bootstrap-sass'
 gem 'gibbon'
 gem 'high_voltage'
@@ -29,4 +28,8 @@ gem 'simple_form'
 group :development do
   gem 'better_errors'
   gem 'rails_layout'
+  gem 'sqlite3'
+end
+group :production do
+  gem 'pg'
 end
